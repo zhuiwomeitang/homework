@@ -38,7 +38,8 @@ public class Test07 {
                 emps.add(emp);}
                 ci++;
         }
-          System.out.println(emps);
-
+       for(int i=0;i<emps.size();i++) {
+           System.out.println(emps);
+       }
     }
 }
