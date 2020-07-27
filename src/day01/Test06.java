@@ -25,7 +25,6 @@ public class Test06 {
 		if(sc.contains("-")){System.out.println(a1-b1);}
 		if(sc.contains("*")){System.out.println(a1*b1);}
 		if(sc.contains("/")){System.out.println(a1/b1);}
-
 	}
 	public static int parseInt(String str){
 		// 最后要生成的数字
