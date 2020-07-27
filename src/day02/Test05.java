@@ -19,8 +19,8 @@ public class Test05 {
 		Date date=new Date();
 		long time=date.getTime();
 		System.out.println(time);
-		String regex="\\.";
-		String a[]=str.split(regex);
-
+		String regex="[a-z]+\\.";
+		String a=String.valueOf(time)+".";
+        System.out.println(str.replaceAll(regex,a));
 	}
 }
