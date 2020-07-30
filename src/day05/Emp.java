@@ -88,7 +88,7 @@ public class Emp implements Comparable<Emp> {
     @Override
     public boolean equals(Object obj) {
           if(obj instanceof Emp){
-             if(this.name==((Emp) obj).name&&this.age==age){
+             if(this.name.equals(((Emp) obj).name)&&this.age==age){
                  return true;
              }
           }
